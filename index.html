@@ -174,10 +174,12 @@
           </thead>
           <tbody>
             <tr><th scope="row">Work starts from</th><td>A GitHub issue, picked up automatically</td><td>A prompt in a live session</td><td>A goal you set in a project chat</td></tr>
-            <tr><th scope="row">Runs unattended</th><td>Yes, it watches your issue queue around the clock</td><td>Only while your session is open</td><td>Keeps going after you step away</td></tr>
-            <tr><th scope="row">Where it runs</th><td>Your machines, or ours</td><td>Your machine</td><td>The vendor's cloud</td></tr>
+            <tr><th scope="row">Runs unattended</th><td>Yes, around the clock</td><td>Only while your session is open</td><td>Yes, cloud threads keep going after you step away</td></tr>
+            <tr><th scope="row">Where it runs</th><td>Your machines, or ours</td><td>Your machine</td><td>The vendor's cloud, or your computer while it's awake</td></tr>
             <tr><th scope="row">Parallel work</th><td>Many issues at once, each on its own branch</td><td>Teammates share one task list</td><td>Parallel threads, each on its own branch</td></tr>
-            <tr><th scope="row">Before merge</th><td>Your approval, plus a gate that re-runs the full test suite on the merged code</td><td>Whatever checks you set up</td><td>Tests run; you decide what merges</td></tr>
+            <tr><th scope="row">Remembers across tasks</th><td>Lessons, decisions and tests, kept in your repository</td><td>Project files; the team lasts one session</td><td>Project memory shared by every thread</td></tr>
+            <tr><th scope="row">Before merge</th><td>Your approval, plus a gate that re-runs the full test suite on the merged code</td><td>Hooks you configure</td><td>Your rules are instructions, not enforced settings</td></tr>
+            <tr><th scope="row">After merge</th><td>Tests every new main, holds merges when it's red, opens issues when checks fail</td><td>Nothing built in</td><td>Watches its own pull requests and fixes failing CI</td></tr>
           </tbody>
         </table>
       </div>
