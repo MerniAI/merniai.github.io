@@ -26,7 +26,7 @@
       <a href="#autonomy">Autonomy</a>
       <a href="#compare">Compare</a>
       <a href="#proof">Proof</a>
-      <a class="nav-cta" href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Contact us</a>
     </nav>
   </div>
 </header>
@@ -34,12 +34,12 @@
 <main id="top">
   <section class="hero">
     <div class="wrap">
-      <p class="pill">Juxta by merni-ai</p>
+      <p class="pill">Runs on Claude Code &amp; Codex</p>
       <h1>File an issue.<br><span class="grad">Get a verified, merged PR.</span></h1>
-      <p class="lead">Juxta helps engineers build real products, not just small tools: fast, reliable and easy. File an issue and check the result; Juxta writes the code and the tests, opens the pull request, and merges only what meets your standard.</p>
+      <p class="lead">Juxta turns every engineer into a product manager. You write the issue and verify the result; Juxta does everything in between: the code, the tests, the pull request, and the merge gate.</p>
       <p class="cta">
         <a class="btn" href="#contact">Contact us</a>
-        <a class="btn ghost" href="#proof">See it work</a>
+        <a class="btn ghost" href="#how-it-works">See it work</a>
       </p>
       <div class="hero-cards">
         <article class="card"><h3>Does the work</h3><p>Writes the code and the tests, opens the pull request, and works on many issues at once, around the clock.</p></article>
@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <section id="gap" class="alt">
+  <section id="the-gap" class="alt">
     <div class="wrap">
       <p class="pill">The gap</p>
       <h2>AI can write code. Shipping a product is different.</h2>
@@ -71,21 +71,21 @@
         <article class="side">
           <h3>You <span>the product manager</span></h3>
           <ul>
-            <li>Decide what to build, by writing the issue</li>
-            <li>Set the standard: the acceptance criteria, and the paths you keep for yourself</li>
-            <li>Answer questions when Juxta asks</li>
-            <li>Verify the result, until you hand that to the verifier</li>
+            <li>Decide what to build by writing the issue</li>
+            <li>Set the standard: acceptance criteria and protected paths</li>
+            <li>Answer architectural questions when Juxta asks</li>
+            <li>Verify the result (until handing off to the autonomous verifier)</li>
           </ul>
         </article>
         <article class="side side-ai">
           <h3>Juxta <span>the engineering team</span></h3>
           <ul>
             <li>Writes the code</li>
-            <li>Writes a regression test that fails without the change</li>
-            <li>Opens the pull request and reports what was done</li>
+            <li>Writes a regression test that is proven to fail without the change</li>
+            <li>Opens the pull request and reports exactly what was done</li>
             <li>Runs the merge gate on the merged code</li>
-            <li>Records every decision and lesson</li>
-            <li>Works on many issues at once, around the clock</li>
+            <li>Records every decision and lesson in repository memory</li>
+            <li>Works on multiple issues in parallel, 24/7</li>
           </ul>
         </article>
       </div>
@@ -95,14 +95,14 @@
   <section id="how-it-works" class="alt">
     <div class="wrap">
       <p class="pill">How it works</p>
-      <h2>From issue to main, without hand-offs</h2>
+      <h2>From issue to main, without hand-offs.</h2>
       <ol class="flow">
         <li><span class="node">Issue</span><p>You describe the change in plain language, in English or Chinese.</p></li>
-        <li><span class="node">Worker</span><p>Claude or Codex picks it up in its own isolated branch.</p></li>
-        <li><span class="node">Pull request</span><p>The change, a regression test that fails without it, and a report.</p></li>
-        <li><span class="node">You verify</span><p>Juxta asks on the issue when it needs a decision. You approve, or send it back.</p></li>
-        <li><span class="node node-gate">Merge gate</span><p>The full test suite runs on the merged code.</p></li>
-        <li><span class="node node-main">main</span><p>Only then does the change land.</p></li>
+        <li><span class="node">Worker</span><p>Claude or Codex picks it up in an isolated branch.</p></li>
+        <li><span class="node">Pull request</span><p>Delivers the change, a regression test that fails without it, and an execution report.</p></li>
+        <li><span class="node">You verify</span><p>Juxta asks on the issue when it needs a human decision. You approve or request revisions.</p></li>
+        <li><span class="node node-gate">Merge gate</span><p>The full test suite runs on the merged code in an isolated tree.</p></li>
+        <li><span class="node node-main">main</span><p>Only when all checks and tests pass does the change land.</p></li>
       </ol>
     </div>
   </section>
@@ -117,7 +117,7 @@
           <ul>
             <li>Every change passes a merge gate and an owner sign-off tied to the exact code that was reviewed.</li>
             <li>Every question, decision and approval is recorded on the issue and in an auditable ledger.</li>
-            <li>Many workers run in parallel, with holds, dependencies and alarms built in.</li>
+            <li>Multiple workers run in parallel, with holds, dependencies and alarms built in.</li>
             <li>It keeps watch for you: every new main gets a full test run, a red main holds merges, and when a health check fails Juxta opens an issue to fix it on its own.</li>
           </ul>
         </article>
@@ -147,8 +147,8 @@
       <p class="intro">Autonomy is earned, not assumed. Every repository starts with you verifying everything. Juxta then earns trust on your own pull requests, and you decide when to switch on autopilot.</p>
       <ol class="ladder">
         <li class="step"><span class="lvl">L1</span><h3>You verify everything</h3><p>Every pull request waits for your sign-off, and the merge gate re-checks it either way.</p></li>
-        <li class="step"><span class="lvl">Shadow</span><h3>Juxta proves itself</h3><p>An independent verifier reviews every pull request alongside you, with no authority to sign. It has to match your decisions on 20 real pull requests with zero false approvals.</p></li>
-        <li class="step step-top"><span class="lvl">L5</span><h3>Autopilot</h3><p>When you switch it on, the verifier signs and merges by itself. You keep the paths you choose, and the gate still re-validates every signature.</p></li>
+        <li class="step"><span class="lvl">Shadow</span><h3>Juxta proves itself</h3><p>An independent verifier reviews every pull request alongside you, with no authority to sign. It must match your decisions on 20 real pull requests with zero false approvals before unlocking autopilot.</p></li>
+        <li class="step step-top"><span class="lvl">L5</span><h3>Autopilot</h3><p>When switched on, the verifier signs and merges by itself. You retain any protected paths you choose, and the merge gate still re-validates every signature.</p></li>
       </ol>
     </div>
   </section>
@@ -170,20 +170,20 @@
       <div class="table-scroll">
         <table>
           <thead>
-            <tr><th scope="col"><span class="sr-only">Aspect</span></th><th scope="col">Juxta</th><th scope="col">Interactive agent teams</th><th scope="col">Cloud agent projects</th></tr>
+            <tr><th scope="col">Dimension</th><th scope="col">Juxta</th><th scope="col">Interactive agent teams</th><th scope="col">Cloud agent projects</th></tr>
           </thead>
           <tbody>
             <tr><th scope="row">Work starts from</th><td>A GitHub issue, picked up automatically</td><td>A prompt in a live session</td><td>A goal you set in a project chat</td></tr>
-            <tr><th scope="row">Runs unattended</th><td>Yes, around the clock</td><td>Only while your session is open</td><td>Yes, cloud threads keep going after you step away</td></tr>
-            <tr><th scope="row">Where it runs</th><td>Your machines, or ours</td><td>Your machine</td><td>The vendor's cloud, or your computer while it's awake</td></tr>
-            <tr><th scope="row">Parallel work</th><td>Many issues at once, each on its own branch</td><td>Teammates share one task list</td><td>Parallel threads, each on its own branch</td></tr>
-            <tr><th scope="row">Remembers across tasks</th><td>Lessons, decisions and tests, kept in your repository</td><td>Project files; the team lasts one session</td><td>Project memory shared by every thread</td></tr>
-            <tr><th scope="row">Before merge</th><td>Your approval, plus a gate that re-runs the full test suite on the merged code</td><td>Hooks you configure</td><td>Your rules are instructions, not enforced settings</td></tr>
-            <tr><th scope="row">After merge</th><td>Tests every new main, holds merges when it's red, opens issues when checks fail</td><td>Nothing built in</td><td>Watches its own pull requests and fixes failing CI</td></tr>
+            <tr><th scope="row">Runs unattended</th><td>Yes, watches the issue queue 24/7</td><td>Only while session is open</td><td>Keeps going after you step away</td></tr>
+            <tr><th scope="row">Where it runs</th><td>Your machines or ours (single signed binary)</td><td>Your local machine</td><td>The vendor's cloud, or your computer while it's awake</td></tr>
+            <tr><th scope="row">Parallel work</th><td>Many issues at once, each on its own branch</td><td>Teammates share one task list</td><td>Parallel threads on isolated branches</td></tr>
+            <tr><th scope="row">Remembers across tasks</th><td>Lessons, decisions, and tests kept in your repository</td><td>Project files; team lasts one session</td><td>Project memory shared across threads</td></tr>
+            <tr><th scope="row">Before merge</th><td>Owner approval, plus a merge gate that re-runs the full suite on the merged code</td><td>Custom hooks you configure manually</td><td>Your rules are instructions, not enforced settings</td></tr>
+            <tr><th scope="row">After merge</th><td>Tests every new main, holds merges on red, opens issues on failure</td><td>Nothing built in</td><td>Watches its own PRs and fixes failing CI</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="note">Compared with interactive agent-team tools and cloud agent-project tools as publicly documented in October 2026.</p>
+      <p class="note">Comparison baseline: publicly documented tools as of October 2026.</p>
     </div>
   </section>
 
@@ -192,10 +192,10 @@
       <p class="pill">Proof</p>
       <h2>Proof, not promises</h2>
       <ul class="stats">
-        <li><strong>450+</strong><span>pull requests merged by Juxta since Sep 18, 2026, across five repositories</span></li>
-        <li><strong>400+</strong><span>of them on Juxta's own codebase: Juxta builds Juxta</span></li>
+        <li><strong>450+</strong><span>pull requests merged by Juxta across five repositories since Sep 18, 2026</span></li>
+        <li><strong>400+</strong><span>pull requests merged on Juxta's own codebase (Juxta builds Juxta)</span></li>
         <li><strong>8,000+</strong><span>regression tests guard every merge</span></li>
-        <li><strong>~4 h</strong><span>median time from issue to merge, including time waiting for a human</span></li>
+        <li><strong>~4 h</strong><span>median time from issue to merge (including human review latency)</span></li>
       </ul>
 
       <div class="cases">
@@ -209,11 +209,11 @@
         </article>
         <article class="card">
           <h3>A quotation tool for a Taiwanese machining shop</h3>
-          <p>A cost and quotation calculator for a small manufacturer. The owner filed a feature request in Chinese, a development-fee breakdown for quotes, and Juxta delivered it as a pull request the owner reviewed and merged.</p>
+          <p>A cost and quotation calculator for a small manufacturer. The owner filed a feature request in Chinese (a development-fee breakdown for quotes), and Juxta delivered it as a verified pull request that the owner reviewed and merged.</p>
         </article>
         <article class="card">
           <h3>A router for a public 3D-chip challenge</h3>
-          <p>Juxta is developing a router for Partcl's public <a href="https://github.com/partcleda/eda-3d-routing-challenge">M3D routing challenge</a>, a benchmark for monolithic-3D chip design. Each algorithm change lands as a verified pull request, with its measurements recorded.</p>
+          <p>Juxta is developing an algorithmic router for Partcl's public <a href="https://github.com/partcleda/eda-3d-routing-challenge">M3D routing challenge</a> (a benchmark for monolithic-3D chip design). Each algorithm change lands as a verified pull request with empirical metrics recorded.</p>
         </article>
       </div>
     </div>
@@ -240,7 +240,8 @@
     <div class="wrap">
       <h2>Let's talk</h2>
       <p>Have something to build, a repository to put on autopilot, or want to talk about the company? Write to us.</p>
-      <p class="mail"><a class="btn mail-btn" href="mailto:contact@merni-ai.com">contact@merni-ai.com</a></p>
+      <p class="mail"><a class="btn mail-btn" href="mailto:contact@merni-ai.com?subject=Juxta%20Inquiry">Send us an email</a></p>
+      <p class="mail-addr"><a href="mailto:contact@merni-ai.com">contact@merni-ai.com</a></p>
     </div>
   </section>
 </main>

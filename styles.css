@@ -107,5 +107,6 @@ thead th:nth-child(2), tbody td:first-of-type { background: rgba(124, 58, 237, .
 .contact { text-align: center; background: radial-gradient(50% 60% at 50% 100%, rgba(124, 58, 237, .22), transparent 70%), var(--bg); }
 .contact p { color: var(--muted); }
 .mail { margin-top: 28px; }
+.mail-addr a { color: var(--muted); }
 .mail-btn { font-size: 1.1rem; padding: 15px 30px; overflow-wrap: anywhere; }
 footer { padding: 28px 0; color: var(--muted); font-size: .88rem; border-top: 1px solid var(--line); }
