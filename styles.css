@@ -33,6 +33,7 @@ p { margin: 0 0 1em; }
 .bar-in { display: flex; align-items: center; justify-content: space-between; gap: 8px 16px; min-height: 60px; flex-wrap: wrap; }
 .logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); text-decoration: none; font-size: 1.15rem; }
 .logo-mark { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg, #7c3aed, #db2777); color: #fff; font-size: .95rem; }
+.logo-mark::before { content: "m"; }
 nav { display: flex; align-items: center; gap: 4px 18px; flex-wrap: wrap; }
 nav a { color: var(--muted); text-decoration: none; font-size: .92rem; }
 nav a:hover { color: var(--ink); }
@@ -105,5 +106,6 @@ thead th:nth-child(2), tbody td:first-of-type { background: rgba(124, 58, 237, .
 .vision .intro { margin-inline: auto; }
 .contact { text-align: center; background: radial-gradient(50% 60% at 50% 100%, rgba(124, 58, 237, .22), transparent 70%), var(--bg); }
 .contact p { color: var(--muted); }
-.mail a { font-size: clamp(1.4rem, 4vw, 2.2rem); font-weight: 700; text-decoration: none; overflow-wrap: anywhere; }
+.mail { margin-top: 28px; }
+.mail-btn { font-size: 1.1rem; padding: 15px 30px; overflow-wrap: anywhere; }
 footer { padding: 28px 0; color: var(--muted); font-size: .88rem; border-top: 1px solid var(--line); }
